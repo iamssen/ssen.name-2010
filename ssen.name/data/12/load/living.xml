@@ -1,0 +1,71 @@
+<xml>
+	<data>
+		<banner img="load/banner/01.png" url="http://eshop.co.kr" />
+	</data>	
+	<list>
+		<sectlist id="1212" name="여성스럽고 평순한">
+			<prdlist prdid="1003809311" imgR="load/items/00.gif" prdlink="http://ssen.name/00.html" prdname="인간털 가죽옷 14종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/01.png" prdlink="http://ssen.name/01.html" prdname="인간털 가죽옷 24종 세트" price="3400000" />
+			<prdlist prdid="1003809311" imgR="load/items/02.png" prdlink="http://ssen.name/02.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/03.png" prdlink="http://ssen.name/03.html" prdname="인간털 가죽옷 44종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/04.png" prdlink="http://ssen.name/04.html" prdname="인간털 가죽옷 34종 세트" price="3400" />
+			<prdlist prdid="1003809311" imgR="load/items/05.png" prdlink="http://ssen.name/05.html" prdname="인간털 가죽옷 54종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/06.png" prdlink="http://ssen.name/06.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/07.png" prdlink="http://ssen.name/07.html" prdname="인간털 가죽옷 64종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/03.png" prdlink="http://ssen.name/08.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/04.png" prdlink="http://ssen.name/09.html" prdname="인간털 가죽옷 74종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/05.png" prdlink="http://ssen.name/10.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/06.png" prdlink="http://ssen.name/11.html" prdname="인간털 가죽옷 84종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/07.png" prdlink="http://ssen.name/12.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/06.png" prdlink="http://ssen.name/13.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/07.png" prdlink="http://ssen.name/14.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/03.png" prdlink="http://ssen.name/15.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/04.png" prdlink="http://ssen.name/16.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/05.png" prdlink="http://ssen.name/17.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/06.png" prdlink="http://ssen.name/18.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/07.png" prdlink="http://ssen.name/19.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+		</sectlist>
+		<sectlist id="1212" name="세련되고 섹시한">
+			<prdlist prdid="1003809311" imgR="load/items/00.png" prdlink="http://ssen.name/00.html" prdname="사람털 가죽옷 14종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/01.png" prdlink="http://ssen.name/01.html" prdname="사람털 가죽옷 24종 세트" price="3400000" />
+			<prdlist prdid="1003809311" imgR="load/items/02.png" prdlink="http://ssen.name/02.html" prdname="사람털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/03.png" prdlink="http://ssen.name/03.html" prdname="사람털 가죽옷 44종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/04.png" prdlink="http://ssen.name/04.html" prdname="사람털 가죽옷 34종 세트" price="3400" />
+			<prdlist prdid="1003809311" imgR="load/items/05.png" prdlink="http://ssen.name/05.html" prdname="사람털 가죽옷 54종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/06.png" prdlink="http://ssen.name/06.html" prdname="사람털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/07.png" prdlink="http://ssen.name/07.html" prdname="사람털 가죽옷 64종 세트" price="34000000" />
+		</sectlist>
+		<sectlist id="1212" name="우아하고 지적인">
+			<prdlist prdid="1003809311" imgR="load/items/00.png" prdlink="http://ssen.name/00.html" prdname="인간털 가죽옷 14종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/01.png" prdlink="http://ssen.name/01.html" prdname="인간털 가죽옷 24종 세트" price="3400000" />
+			<prdlist prdid="1003809311" imgR="load/items/02.png" prdlink="http://ssen.name/02.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/03.png" prdlink="http://ssen.name/03.html" prdname="인간털 가죽옷 44종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/04.png" prdlink="http://ssen.name/04.html" prdname="인간털 가죽옷 34종 세트" price="3400" />
+			<prdlist prdid="1003809311" imgR="load/items/05.png" prdlink="http://ssen.name/05.html" prdname="인간털 가죽옷 54종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/06.png" prdlink="http://ssen.name/06.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/07.png" prdlink="http://ssen.name/07.html" prdname="인간털 가죽옷 64종 세트" price="34000000" />
+		</sectlist>
+		<sectlist id="1212" name="털털하고 보이쉬한">
+			<prdlist prdid="1003809311" imgR="load/items/00.png" prdlink="http://ssen.name/00.html" prdname="인간털 가죽옷 14종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/01.png" prdlink="http://ssen.name/01.html" prdname="인간털 가죽옷 24종 세트" price="3400000" />
+			<prdlist prdid="1003809311" imgR="load/items/02.png" prdlink="http://ssen.name/02.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/03.png" prdlink="http://ssen.name/03.html" prdname="인간털 가죽옷 44종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/04.png" prdlink="http://ssen.name/04.html" prdname="인간털 가죽옷 34종 세트" price="3400" />
+			<prdlist prdid="1003809311" imgR="load/items/05.png" prdlink="http://ssen.name/05.html" prdname="인간털 가죽옷 54종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/06.png" prdlink="http://ssen.name/06.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/07.png" prdlink="http://ssen.name/07.html" prdname="인간털 가죽옷 64종 세트" price="34000000" />
+		</sectlist>
+		<sectlist id="1212" name="명랑하고 귀여운">
+			<prdlist prdid="1003809311" imgR="load/items/00.png" prdlink="http://ssen.name/00.html" prdname="인간털 가죽옷 14종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/01.png" prdlink="http://ssen.name/01.html" prdname="인간털 가죽옷 24종 세트" price="3400000" />
+			<prdlist prdid="1003809311" imgR="load/items/02.png" prdlink="http://ssen.name/02.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/03.png" prdlink="http://ssen.name/03.html" prdname="인간털 가죽옷 44종 세트" price="30000" />
+			<prdlist prdid="1003809311" imgR="load/items/04.png" prdlink="http://ssen.name/04.html" prdname="인간털 가죽옷 34종 세트" price="3400" />
+			<prdlist prdid="1003809311" imgR="load/items/05.png" prdlink="http://ssen.name/05.html" prdname="인간털 가죽옷 54종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/06.png" prdlink="http://ssen.name/06.html" prdname="인간털 가죽옷 34종 세트" price="34000000" />
+			<prdlist prdid="1003809311" imgR="load/items/07.png" prdlink="http://ssen.name/07.html" prdname="인간털 가죽옷 64종 세트" price="34000000" />
+		</sectlist>
+		
+	</list>
+	
+</xml>

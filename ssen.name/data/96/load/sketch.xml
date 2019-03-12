@@ -1,0 +1,56 @@
+<xml>
+	<tab>
+		<tag href="http://localhost/11.html">디지털 10% 할인!</tag>
+		<tag href="http://localhost/12.html">노트북 10% 할인!</tag>
+		<tag href="http://localhost/13.html">디지털TV</tag>
+		<tag href="http://localhost/14.html">외장하드 LCD</tag>
+		<tag href="http://localhost/15.html">닌텐도 DSL</tag>
+		<tag href="http://localhost/16.html">[예약판매]에어컨!</tag>
+		<banner href="http://localhost/banner1.html" src="load/banner/sketch.png" />
+	</tab>
+	<tab>
+		<tag href="http://localhost/21.html">디지털 10% 할인!</tag>
+		<tag href="http://localhost/22.html">노트북 10% 할인!</tag>
+		<tag href="http://localhost/23.html">디지털TV</tag>
+		<tag href="http://localhost/24.html">외장하드 LCD</tag>
+		<tag href="http://localhost/25.html">닌텐도 DSL</tag>
+		<tag href="http://localhost/26.html">[예약판매]에어컨!</tag>
+		<banner href="http://localhost/banner1.html" src="load/banner/sketch.png" />
+	</tab>
+	<tab>
+		<tag href="http://localhost/1.html">디지털 10% 할인!</tag>
+		<tag href="http://localhost/2.html">노트북 10% 할인!</tag>
+		<tag href="http://localhost/3.html">디지털TV</tag>
+		<tag href="http://localhost/4.html">외장하드 LCD</tag>
+		<tag href="http://localhost/5.html">닌텐도 DSL</tag>
+		<tag href="http://localhost/6.html">[예약판매]에어컨!</tag>
+		<banner href="http://localhost/banner1.html" src="load/banner/sketch.png" />
+	</tab>
+	<tab>
+		<tag href="http://localhost/1.html">디지털 10% 할인!</tag>
+		<tag href="http://localhost/2.html">노트북 10% 할인!</tag>
+		<tag href="http://localhost/3.html">디지털TV</tag>
+		<tag href="http://localhost/4.html">외장하드 LCD</tag>
+		<tag href="http://localhost/5.html">닌텐도 DSL</tag>
+		<tag href="http://localhost/6.html">[예약판매]에어컨!</tag>
+		<banner href="http://localhost/banner1.html" src="load/banner/sketch.png" />
+	</tab>
+	<tab>
+		<tag href="http://localhost/1.html">디지털 10% 할인!</tag>
+		<tag href="http://localhost/2.html">노트북 10% 할인!</tag>
+		<tag href="http://localhost/3.html">디지털TV</tag>
+		<tag href="http://localhost/4.html">외장하드 LCD</tag>
+		<tag href="http://localhost/5.html">닌텐도 DSL</tag>
+		<tag href="http://localhost/6.html">[예약판매]에어컨!</tag>
+		<banner href="http://localhost/banner1.html" src="load/banner/sketch.png" />
+	</tab>
+	<tab>
+		<tag href="http://localhost/1.html">디지털 10% 할인!</tag>
+		<tag href="http://localhost/2.html">노트북 10% 할인!</tag>
+		<tag href="http://localhost/3.html">디지털TV</tag>
+		<tag href="http://localhost/4.html">외장하드 LCD</tag>
+		<tag href="http://localhost/5.html">닌텐도 DSL</tag>
+		<tag href="http://localhost/6.html">[예약판매]에어컨!</tag>
+		<banner href="http://localhost/banner1.html" src="load/banner/sketch.png" />
+	</tab>				
+</xml>

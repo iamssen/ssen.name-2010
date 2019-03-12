@@ -1,0 +1,273 @@
+# 현재 페이지의 소스
+<@post.txt>
+
+# 기초적인 단락의 표현
+## 내려쓰기
+한 번 내려쓰면
+이렇게 표현되고
+
+두 번 내려쓰면 이와 같이 단락으로 표현됩니다.
+
+## 절단선
+
+----------------
+라인을 사용하면 위와 같이 절단선이 생깁니다.
+
+# 텍스트 스타일
+## 기초 스타일
+기초적인 문장의 서식은 *강조*와 _중요_, -무의미-가 존재합니다.
+
+## 사용자 지정 스타일
+그리고, [highlight:스타일을 직접 지정할 수 있습니다.]
+
+# 링크
+기본적인 문법상의 링크를 지원합니다.
+
+<http://google.com> 웹사이트 주소만 적거나 <mail@ssen.name> 와 같이 메일주소만 간단히 적어서 사용할 수 있습니다.
+
+<http://google.com, 구글>, <mail@ssen.name, 이메일> 과 같이 쉼표를 사용해서 타이틀을 적을 수 있고,
+<http://google.com, 구글, _blank> 와 같이 타겟을 지정할 수도 있습니다.
+
+# 리스트
+기본적인 리스트 기능을 지원합니다.
+
+* <http://google.com>
+* <http://google.com, 리스트>
+** <http://google.com, 리스트, _blank>
+*** 리스트
+**** 리스트
+***** 리스트
+*** 리스트
+** 리스트
+
+# 주석, 변수
+$name = 안데르센
+제 이름은 ${name} 입니다.
+
+// 문서에는 표현되지 않습니다.
+
+# 미디어
+기본적인 미디어의 삽입이 가능합니다.
+
+:: @profile.png
+:: @profile.png, 30, 30
+:: @profile.png, , , 첨언의 삽입이 가능합니다.
+:: @profile.png, , , 첨언의 삽입이 가능합니다., http://google.com, _blank
+
+위와 같이 그림의 삽입이 가능합니다.
+
+:: @example.mp4, 320, 240, 첨언의 삽입이 가능합니다.
+그리고, 위와 같이 영상의 삽입도 가능합니다.
+
+# 확장기능
+
+====code===========
+// 줄 맞추지 않으면 허파가 벌렁벌렁...
+trace("Hello World?");
+===================
+
+====code===========
+package ssen.framework.widgets.core {
+	import ssen.framework.service.SS;
+	import ssen.framework.widgets.core.events.WidgetEvent;
+
+	import de.polygonal.ds.HashMap;
+
+	import flash.events.Event;
+
+	/**
+	 * @author ssen (i@ssen.name)
+	 */
+	public class InvalidSpriteWidget extends SpriteWidget {
+		private var _invalid : HashMap;
+
+		override protected function wconstruct() : void {
+			super.wconstruct();
+			_invalid = new HashMap();
+		}
+
+		private function invalidate() : void {
+			if (registered) {
+				SS.frame.stage.addEventListener(Event.RENDER, render, false, 0, true);
+				SS.frame.stage.addEventListener(Event.ENTER_FRAME, render, false, 0, true);
+				SS.frame.stage.invalidate();
+			} else {
+				addEventListener(WidgetEvent.REGISTERED, onRegistered, false, 0, true);
+			}
+		}
+
+		private function onRegistered(event : WidgetEvent) : void {
+			removeEventListener(WidgetEvent.REGISTERED, onRegistered);
+			invalidate();
+		}
+
+		protected function render(event : Event = null) : void {
+			if (registered) {
+				SS.frame.stage.removeEventListener(Event.RENDER, render);
+				SS.frame.stage.removeEventListener(Event.ENTER_FRAME, render);
+			}
+			if (_invalid.size() > 0) rendering();
+		}
+
+		protected function unsetInvalidate() : void {
+			if (SS.frame.stage.hasEventListener(Event.RENDER)) SS.frame.stage.removeEventListener(Event.RENDER, render);
+			if (SS.frame.stage.hasEventListener(Event.ENTER_FRAME)) SS.frame.stage.removeEventListener(Event.ENTER_FRAME, render);
+			if (hasEventListener(WidgetEvent.REGISTERED)) removeEventListener(WidgetEvent.REGISTERED, onRegistered);
+			_invalid.clear();
+		}
+
+		protected function rendering() : void {
+			_invalid.clear();
+		}
+
+		protected final function setInvalid(key : String, val : Boolean) : void {
+			if (_invalid.has(key)) {
+				_invalid.remap(key, val);
+			} else {
+				_invalid.set(key, val);
+			}
+			invalidate();
+		}
+
+		protected final function getInvalid(key : String) : * {
+			return _invalid.get(key);
+		}
+	}
+}
+===================
+
+위와 같이 프로그래밍 코드를 보여줄 수도 있고,
+
+====text===========
+# 기초적인 단락의 표현
+## 내려쓰기
+한 번 내려쓰면
+이렇게 표현되고
+
+두 번 내려쓰면 이와 같이 단락으로 표현됩니다.
+
+## 절단선
+
+----------------
+라인을 사용하면 위와 같이 절단선이 생깁니다.
+
+# 텍스트 스타일
+## 기초 스타일
+기초적인 문장의 서식은 *강조*와 _중요_, -무의미-, !용어! 가 존재합니다.
+
+## 사용자 지정 스타일
+그리고, [highlight:스타일을 직접 지정할 수 있습니다.]
+
+# 링크
+기본적인 문법상의 링크를 지원합니다.
+
+<http://google.com> 웹사이트 주소만 적거나 <mail@ssen.name> 와 같이 메일주소만 간단히 적어서 사용할 수 있습니다.
+<http://google.com, 구글>, <mail@ssen.name, 이메일> 과 같이 쉼표를 사용해서 타이틀을 적을 수 있고,
+<http://google.com, 구글, _blank> 와 같이 타겟을 지정할 수도 있습니다.
+
+# 리스트
+기본적인 리스트 기능을 지원합니다.
+
+* 리스트
+* 리스트
+** 리스트
+*** 리스트
+**** 리스트
+*** 리스트
+** 리스트
+
+# 주석, 변수
+$name = 안데르센
+제 이름은 ${name} 입니다.
+
+// 문서에는 표현되지 않습니다.
+
+# 미디어
+기본적인 미디어의 삽입이 가능합니다.
+
+:: profile.png
+:: profile.png, 30, 30
+:: profile.png, , , 첨언의 삽입이 가능합니다.
+
+위와 같이 그림의 삽입이 가능합니다.
+
+:: example.mp4,400, 300, 첨언의 삽입이 가능합니다.
+그리고, 위와 같이 영상의 삽입도 가능합니다.
+
+# 확장기능
+
+\=\=\=\=code\=\=\=\=\=\=\=\=\=\=\=
+package ssen.framework.widgets.core {
+	import ssen.framework.service.SS;
+	import ssen.framework.widgets.core.events.WidgetEvent;
+
+	import de.polygonal.ds.HashMap;
+
+	import flash.events.Event;
+
+	/**
+	 * @author ssen (i@ssen.name)
+	 */
+	public class InvalidSpriteWidget extends SpriteWidget {
+		private var _invalid : HashMap;
+
+		override protected function wconstruct() : void {
+			super.wconstruct();
+			_invalid = new HashMap();
+		}
+
+		private function invalidate() : void {
+			if (registered) {
+				SS.frame.stage.addEventListener(Event.RENDER, render, false, 0, true);
+				SS.frame.stage.addEventListener(Event.ENTER_FRAME, render, false, 0, true);
+				SS.frame.stage.invalidate();
+			} else {
+				addEventListener(WidgetEvent.REGISTERED, onRegistered, false, 0, true);
+			}
+		}
+
+		private function onRegistered(event : WidgetEvent) : void {
+			removeEventListener(WidgetEvent.REGISTERED, onRegistered);
+			invalidate();
+		}
+
+		protected function render(event : Event = null) : void {
+			if (registered) {
+				SS.frame.stage.removeEventListener(Event.RENDER, render);
+				SS.frame.stage.removeEventListener(Event.ENTER_FRAME, render);
+			}
+			if (_invalid.size() > 0) rendering();
+		}
+
+		protected function unsetInvalidate() : void {
+			if (SS.frame.stage.hasEventListener(Event.RENDER)) SS.frame.stage.removeEventListener(Event.RENDER, render);
+			if (SS.frame.stage.hasEventListener(Event.ENTER_FRAME)) SS.frame.stage.removeEventListener(Event.ENTER_FRAME, render);
+			if (hasEventListener(WidgetEvent.REGISTERED)) \nremoveEventListener(WidgetEvent.REGISTERED, onRegistered);
+			_invalid.clear();
+		}
+
+		protected function rendering() : void {
+			_invalid.clear();
+		}
+
+		protected final function setInvalid(key : String, val : Boolean) : void {
+			if (_invalid.has(key)) {
+				_invalid.remap(key, val);
+			} else {
+				_invalid.set(key, val);
+			}
+			invalidate();
+		}
+
+		protected final function getInvalid(key : String) : * {
+			return _invalid.get(key);
+		}
+	}
+}
+
+\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+
+위와 같이 프로그래밍 코드를 보여줄 수도 있고,
+===================
+
+아무런 해석도 거치지 않는 형태의 텍스트도 보여줄 수 있습니다.

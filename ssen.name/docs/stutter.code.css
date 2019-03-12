@@ -1,0 +1,67 @@
+/* 문자열 "x" /x/ */
+.stutter .prettyprint .str {
+	color: #d04500;
+}
+
+/* 키워드 class function... */
+.stutter .prettyprint .kwd {
+	color: #6567ff;
+	font-weight: bold;
+}
+
+/* 주석 */
+.stutter .prettyprint .com {
+	color: #ff9314;
+	font-style: italic;
+}
+
+/* 타입 MouseEvent, MovieClip... */
+.stutter .prettyprint .typ {
+	color: #00adad;
+}
+
+/* 숫자 */
+.stutter .prettyprint .lit {
+	color: #b400db;
+}
+
+/* . < > 등의 특수문자 */
+.stutter .prettyprint .pun {
+	color: #660;
+}
+
+/* 변수, 태그의 텍스트 돔 */
+.stutter .prettyprint .pln {
+	color: #000000;
+}
+
+/* 태그 내부 문자열 */
+.stutter .prettyprint .tag {
+	color: #6567ff;
+	font-weight: bold;
+}
+
+/* 어트리뷰트 */
+.stutter .prettyprint .atn {
+	color: #0000FF;
+}
+
+/* 어트리뷰트 내의 문자열 */
+.stutter .prettyprint .atv {
+	color: #d04500;
+}
+
+/* html 랭귀지 타입 선언 */
+.stutter .prettyprint .dec {
+	color: #CCCCCC;
+	font-style: italic;
+}
+
+.stutter .prettyprint {
+	font-family: "NanumGothic", sans-serif;
+	font-size: 11px;
+	border-left: 10px solid #eeeeee;
+	padding: 5px;
+	letter-spacing: 0px;
+	word-wrap: break-word;
+}

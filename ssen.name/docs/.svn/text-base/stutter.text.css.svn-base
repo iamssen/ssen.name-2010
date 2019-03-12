@@ -1,0 +1,8 @@
+.stutter xmp.plainText {
+	font-family: "NanumGothic", sans-serif;
+	font-size: 11px;
+	letter-spacing: 0px;
+	color: #999999;
+	display: block;
+	word-wrap:break-word;
+}

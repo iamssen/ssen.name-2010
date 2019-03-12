@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+	<portfolio>
+		<category title="플래시 게임" open="true">
+			<post id="54" title="위기일발 다이빙" />
+			<post id="59" title="프로방스 제과점" />
+			<post id="51" title="갤럭시 레이스" />
+			<post id="63" title="젤리다이빙" />
+			<post id="52" title="피쉬런" />
+			<post id="48" title="Fly 스무부" />
+			<post id="5" title="빌리의 모험" />
+			<post id="45" title="코스모는 청소부" />
+			<post id="47" title="코믹낚시" />
+			<post id="62" title="로보팩토리" />
+			<post id="49" title="로보로보점프" />
+			<post id="57" title="롤리팝 빙고" />
+			<post id="43" title="카드캡터 D" />
+			<post id="44" title="카드캡터 R" />
+			<post id="53" title="햄스터 레이스" />
+			<post id="56" title="베이비 붕붕" />
+			<post id="46" title="스무부 RUN" />
+			<post id="64" title="스노우밸리" />
+			<post id="61" title="슬링샷" />
+			<post id="66" title="울렁울렁 디스코" />
+			<post id="60" title="변신 퍼피" />
+			<post id="65" title="엄브렐라 블루스" />
+			<post id="55" title="죠스가 나타났다" />
+			<post id="58" title="달걀대작전" />
+			<post id="50" title="포드1의 모험" />
+		</category>
+		<category title="그림들" open="true">
+			<post id="17" title="위기일발 다이빙 게임 아트웍" />
+			<post id="20" title="플라이 스무브 등 게임 아트웍" />
+			<post id="34" title="개팔자 상팔자 플래시 애니메이션" />
+			<post id="41" title="개인 홈페이지 아트웍" />
+			<post id="25" title="개인 그림들" />
+			<post id="42" title="유리공예" />
+			<post id="32" title="꼬마 여자애들" />
+			<post id="39" title="딱풀" />
+			<post id="19" title="코믹 낚시 게임 아트웍" />
+			<post id="22" title="로보로보 점프 등 게임 아트웍" />
+			<post id="36" title="애니메이션 빠세 콘티" />
+			<post id="30" title="애니메이션 빠세 컨셉 아트웍" />
+			<post id="23" title="롤리팝 빙고 등 게임 아트웍" />
+			<post id="18" title="카드캡처 게임 아트웍" />
+			<post id="38" title="인생 부르마불" />
+			<post id="16" title="명함 그림 등" />
+			<post id="37" title="불여우" />
+			<post id="31" title="쎈바타" />
+			<post id="35" title="쎈툰" />
+			<post id="24" title="베스킨라빈슨 전시" />
+			<post id="29" title="별 닦는 마을 캐릭터 디자인" />
+			<post id="33" title="니코스탑 배너" />
+			<post id="28" title="맑음이 캐릭터 디자인" />
+			<post id="27" title="엔토이 미니홈피 스티커" />
+			<post id="21" title="포드1의 모험 등 게임 아트웍" />
+			<post id="40" title="그림자 캐릭터" />
+			<post id="26" title="미래하우징 홍보 전단" />
+		</category>
+		<category title="개발물들" open="true">
+			<post id="10" title="현대/기아자동차 차계부" />
+			<post id="13" title="개발 이력" />
+			<post id="12" title="GS eshop 네비게이션" />
+			<post id="14" title="SSen Framework" />
+			<post id="15" title="Stutter" />
+			<post id="11" title="해피머니 사이트" />
+		</category>
+		<category title="쎈의 포트폴리오" open="true">
+			<post id="96" title="경력사항 및 연락처" />
+		</category>
+		<category title="Polygonal DS" open="false">
+			<post id="73" title="0 . Polygonal DS?" />
+			<post id="74" title="1 . Queue 선입선출 구조" />
+			<post id="79" title="2 . Stack 후입선출 구조" />
+			<post id="81" title="3 . Deque 양방향 Stack" />
+			<post id="80" title="4 . Queue, Stack, Deque 를 Array 로 대체하기" />
+			<post id="91" title="5 . Hashmap vs Dictionary" />
+			<post id="92" title="6 . ObjectPool" />
+			<post id="93" title="7 . LinkedList" />
+			<post id="94" title="8 . LinkedObjectPool" />
+			<post id="99" title="9 . Tree" />
+		</category>
+		<category title="SSen Framework Diary" open="false">
+			<post id="8" title="0 . SSen framework 비하인드 스토리" />
+			<post id="9" title="1 . Framework 의 구조를 결정하게 되는 여정" />
+			<post id="6" title="2 . 미치도록 포괄적인 Btn" />
+			<post id="7" title="3 . UI 알고리즘의 고향 Scroll" />
+			<post id="95" title="4 . UX의 시대, 그리고, 레거시 화 되는 UX 프로젝트들" />
+		</category>
+		<category title="할머니도 하는 액션스크립트" open="false">
+			<post id="4" title="01 . trace" />
+			<post id="82" title="02 . var 변수" />
+			<post id="83" title="03 . 입력, 처리, 출력" />
+			<post id="84" title="04 . if 이럴땐 이렇게" />
+			<post id="85" title="05 . Function... 걸리버 여행기의 주인공이 되다" />
+			<post id="86" title="06 . Class 와 ASDoc" />
+			<post id="87" title="07 . Class 의 상속" />
+			<post id="88" title="08 . class 의 몇 가지 형태" />
+			<post id="89" title="09 . swf 를 만드는 도구들 Flash, Flex SDK" />
+			<post id="90" title="10 . Flash builder 를 사용한 trace, function, if, class" />
+		</category>
+		<category title="HTML Develop" open="false">
+			<post id="77" title="Mobile View Control" />
+		</category>
+		<category title="Stutter" open="false">
+			<post id="2" title="Stutter 기본 문법" />
+			<post id="78" title="Stutter 의 기본 모듈" />
+			<post id="67" title="Stutter 데이터 web 으로 출판하기" />
+			<post id="75" title="Stutter 란?" />
+		</category>
+	</portfolio>
+</xml>

@@ -1,0 +1,352 @@
+
+/**********************************************************
+ * global
+ **********************************************************/
+.stutter {
+	font-family: "NanumGothic", sans-serif;
+	font-size: 12px;
+}
+
+/**********************************************************
+ * headers
+ **********************************************************/
+.stutter h1 {
+	color: #000000;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	border-bottom: 2px solid black;
+}
+
+.stutter h2 {
+	color: #000000;
+	margin-top: 8px;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+
+.stutter h3 {
+	color: #000000;
+	margin-top: 6px;
+	padding-bottom: 4px;
+	font-size: 13px;
+}
+
+.stutter h1 a, .stutter h2 a, .stutter h3 a, .stutter h1 a:hover, .stutter h2 a:hover, .stutter h3 a:hover, .stutter h1 a:visited, .stutter h2 a:visited, .stutter h3 a:visited {
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 0;
+}
+
+/**********************************************************
+ * header padding
+ **********************************************************/
+.stutter .hPadding1 {
+	padding-left: 0px;
+}
+
+.stutter .hPadding2 {
+	padding-left: 10px;
+}
+
+.stutter .hPadding3 {
+	padding-left: 20px;
+}
+
+/**********************************************************
+ * line
+ **********************************************************/
+.stutter hr {
+	margin: 10px;
+	height: 0px;
+	border-top: 1px #cccccc dashed;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+
+/**********************************************************
+ * link
+ **********************************************************/
+.stutter a {
+	color: #5f7ad0;
+	text-decoration: none;
+	border-bottom: 1px dotted #5f7ad0;
+}
+
+.stutter a:hover {
+	color: #06237f;
+	text-decoration: none;
+	border-bottom: 1px solid #2d5aea;
+}
+
+.stutter a:visited {
+	color: #aaaaaa;
+	text-decoration: none;
+	border-bottom: 1px dotted #aaaaaa;
+}
+
+/**********************************************************
+ * header list
+ **********************************************************/
+.stutter div.header {
+	padding: 10px 0px 10px 0px;
+	background-color: #f5f7fd;
+}
+
+.stutter ol.header {
+	margin: 0;
+	padding: 0px 0px 0px 15px;
+}
+
+.stutter ol.header a {
+	color: #5f7ad0;
+	text-decoration: none;
+	border-bottom: 0px;
+}
+
+.stutter ol.header a:hover {
+	color: #06237f;
+	text-decoration: none;
+	border-bottom: 1px dotted #5f7ad0;
+}
+
+.stutter ol.header a:visited {
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+.stutter ol.header li {
+	margin-top: 3px;
+}
+
+.stutter ol.header li.header1 {
+	list-style-type: none;
+}
+
+.stutter ol.header li.header2 {
+	margin-left: 20px;
+	list-style-type: circle;
+	color: #aaaaaa;
+}
+
+.stutter ol.header li.header3 {
+	font-size: 10px;
+	margin-left: 30px;
+	list-style-type: circle;
+	color: #aaaaaa;
+}
+
+/**********************************************************
+ * list
+ **********************************************************/
+.stutter ol {
+}
+
+.stutter ol li {
+	margin-top: 0.3em;
+}
+
+.stutter ol li.unordered1 {
+	margin-left: 0;
+	list-style-type: disc;
+}
+
+.stutter ol li.unordered2 {
+	margin-left: 10px;
+	list-style-type: square;
+}
+
+.stutter ol li.unordered3 {
+	font-size: 10px;
+	margin-left: 20px;
+	list-style-type: circle;
+	color: #555555;
+}
+
+.stutter ol li.unordered4 {
+	font-size: 10px;
+	margin-left: 30px;
+	list-style-type: circle;
+	color: #aaaaaa;
+}
+
+.stutter ol li.unordered5 {
+	font-size: 9px;
+	margin-left: 40px;
+	list-style-type: circle;
+	color: #aaaaaa;
+}
+
+.stutter ol li.ordered1 {
+	margin-left: 0;
+	list-style-type: decimal;
+}
+
+.stutter ol li.ordered2 {
+	margin-left: 10px;
+	list-style-type: lower-alpha;
+}
+
+.stutter ol li.ordered3 {
+	font-size: 10px;
+	margin-left: 20px;
+	list-style-type: lower-roman;
+	color: #555555;
+}
+
+.stutter ol li.ordered4 {
+	font-size: 10px;
+	margin-left: 30px;
+	list-style-type: decimal;
+	color: #aaaaaa;
+}
+
+.stutter ol li.ordered5 {
+	font-size: 9px;
+	margin-left: 40px;
+	list-style-type: lower-alpha;
+	color: #aaaaaa;
+}
+
+/**********************************************************
+ * table
+ **********************************************************/
+.stutter table {
+	border-collapse: collapse;
+	text-align: left;
+	margin: 0px auto 0px auto;
+}
+
+.stutter table th, .stutter table td {
+	padding-left: 5px;
+	padding-right: 20px;
+}
+
+.stutter table thead th {
+	padding-top: 8px;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #6678b1;
+}
+
+.stutter table tfoot th, .stutter table tfoot td {
+	border-bottom: 1px solid #dddddd;
+}
+
+.stutter table tbody th, .stutter table tfoot th {
+	font-weight: normal;
+	color: #039;
+	padding: 6px 4px;
+}
+
+.stutter table td {
+	color: #669;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+
+.stutter table tbody tr:hover td, .stutter table tfoot tr:hover td {
+	color: #009;
+}
+
+.stutter table tbody tr.row0 th, .stutter table tfoot tr.row0 th {
+	background-color: #f5f7fd;
+}
+
+.stutter table tbody tr.row1 th, .stutter table tfoot tr.row1 th {
+	background-color: #ffffff;
+}
+
+.stutter table tbody tr.row0 td, .stutter table tfoot tr.row0 td {
+	background-color: #f5f7fd;
+}
+
+.stutter table tbody tr.row1 td, .stutter table tfoot tr.row1 td {
+	background-color: #ffffff;
+}
+
+/**********************************************************
+ * paragraph
+ **********************************************************/
+.stutter p.document {
+	color: #000000;
+	line-height: 150%;
+}
+
+.stutter p.document strong {
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.stutter p.document em {
+	text-decoration: underline;
+	font-style: normal;
+}
+
+.stutter p.document del {
+	text-decoration: line-through;
+	color: #999999;
+}
+
+.stutter p.document dfn {
+	text-decoration: none;
+	font-style: italic;
+}
+
+.stutter p.document span.highlight {
+	color: #da5013;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.stutter p.document span.off9 {
+	color: #444444;
+}
+.stutter p.document span.off8 {
+	color: #555555;
+}
+.stutter p.document span.off7 {
+	color: #666666;
+}
+.stutter p.document span.off6 {
+	color: #777777;
+}
+.stutter p.document span.off5 {
+	color: #888888;
+}
+.stutter p.document span.off4 {
+	color: #999999;
+}
+.stutter p.document span.off3 {
+	color: #aaaaaa;
+}
+.stutter p.document span.off2 {
+	color: #bbbbbb;
+}
+.stutter p.document span.off1 {
+	color: #cccccc;
+}
+
+/**********************************************************
+ * media
+ **********************************************************/
+.stutter p.media img, .stutter p.media object, .stutter p.media embed, .stutter p.media video {
+	max-width: 90%;
+}
+
+.stutter p.media {
+	text-align: center;
+	font-size: 11px;
+	color: #777777;
+	padding-bottom: 6px;
+}
+
+.stutter p.media img {
+	margin-bottom: 4px;
+}
+
+.stutter p.media a, .stutter p.media a img, .stutter p.media a:hover, .stutter p.media a:hover img, .stutter p.media a:visited, .stutter p.media a:visited img {
+	text-decoration: none;
+	border: 0px;
+}

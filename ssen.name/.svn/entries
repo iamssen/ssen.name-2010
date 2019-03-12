@@ -1,0 +1,45 @@
+10
+
+dir
+54
+https://dev.naver.com/svn/ssen/trunk/stutterWebTemplate
+https://dev.naver.com/svn/ssen
+
+
+
+2010-09-17T06:33:36.341787Z
+48
+ssen1980
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ac82ffb6-8582-0410-a837-e738fd1d06b3
+
+
+
+
+
+
+0
+immediates
+
+_stutter
+dir
+
+docs
+dir
+
+portfolio
+dir
+
